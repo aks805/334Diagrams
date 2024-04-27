@@ -1,0 +1,22 @@
+shopping list states :
+
+updating 
+idle 
+
+events:
+click add item
+click on item
+clicks on recommende items
+click on transfer to inventory 
+	selects items to transfer to inventory 
+		selects a date of expiry (optional)
+		selects a location (mandatory)
+
+states: 
+viewing shopping list
+adding item 
+editing item 
+viewing recommended items (to add to shopping list)
+
+
+https://www.youtube.com/watch?v=_6TFVzBW7oo&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=8
