@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-27T02:30:10.819Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="AtEaTPYe_tEY8lmO_ezK" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-27T02:34:11.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15" etag="UTqAiM0cxt5gCQre2g9v" version="24.3.0" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="820" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -15,8 +15,8 @@
         <mxCell id="-jXyHKh2xMMI0vtfxNNx-17" value="Clicks Add Item" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-jXyHKh2xMMI0vtfxNNx-11" target="-jXyHKh2xMMI0vtfxNNx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-jXyHKh2xMMI0vtfxNNx-11" value="Shopping List Displayed" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="570" y="370" width="120" height="40" as="geometry" />
+        <mxCell id="-jXyHKh2xMMI0vtfxNNx-11" value="Shopping List Displayed" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fixDash=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-jXyHKh2xMMI0vtfxNNx-12" value="Adding Item" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="410" y="490" width="120" height="40" as="geometry" />
@@ -24,13 +24,19 @@
         <mxCell id="-jXyHKh2xMMI0vtfxNNx-13" value="Items Transfered&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="800" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-jXyHKh2xMMI0vtfxNNx-19" value="[Enters Item Name] / itemName" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-jXyHKh2xMMI0vtfxNNx-12" target="-jXyHKh2xMMI0vtfxNNx-12">
+        <mxCell id="-jXyHKh2xMMI0vtfxNNx-19" value="[Enters Item Name] / itemName :&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-jXyHKh2xMMI0vtfxNNx-12" target="-jXyHKh2xMMI0vtfxNNx-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="440" y="580" />
               <mxPoint x="360" y="580" />
               <mxPoint x="360" y="510" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-jXyHKh2xMMI0vtfxNNx-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="710" as="targetPoint" />
+            <mxPoint x="725" y="650" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
