@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>600</x>
+      <y>400</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>View Fridge
+--
+do/displayItems
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>290</x>
+      <y>410</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>400</y>
+      <w>320</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Fridge/Directed To Fridge Page</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>310</y>
+      <w>310</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Search Inventory/UserEntersFields</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>570</x>
+      <y>280</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Searching Inventory</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>100</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>SearchedInventory
+--
+do/displayItems
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>150</y>
+      <w>310</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+User Presses Enter/Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>0</y>
+      <w>200</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Cross Icon</panel_attributes>
+    <additional_attributes>160.0;100.0;160.0;10.0;10.0;10.0;10.0;370.0;180.0;370.0;180.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>440</y>
+      <w>340</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Add Items Icon / Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>530</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Adding Items
+--
+do/displayFields
+
+-.
+exit/discard Item
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>540</y>
+      <w>420</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a category from dropdown/ItemCategorySet</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>610</y>
+      <w>350</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a location from dropdown/ItemLocationSet</panel_attributes>
+    <additional_attributes>180.0;10.0;180.0;50.0;160.0;50.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>920</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select date/expiryDateSet</panel_attributes>
+    <additional_attributes>70.0;40.0;70.0;20.0;120.0;20.0;120.0;40.0</additional_attributes>
+  </element>
+</diagram>
