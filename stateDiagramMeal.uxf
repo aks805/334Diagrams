@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>320</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>idle
+-
+do/display(meals)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>510</x>
+      <y>450</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>modifying meals db
+--
+
+-.
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>360</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+addMealBtnClick</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>260</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+searchMeals / searchedMeals</panel_attributes>
+    <additional_attributes>60.0;80.0;160.0;80.0;160.0;20.0;10.0;20.0;10.0;60.0</additional_attributes>
+  </element>
+</diagram>

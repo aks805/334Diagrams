@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>511</x>
+      <y>280</y>
+      <w>84</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>View Pantry
+--
+do/displayItems
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>294</x>
+      <y>287</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>301</x>
+      <y>280</y>
+      <w>224</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Pantry/Directed To Pantry Page</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>217</y>
+      <w>217</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Search Inventory/UserEntersFields</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>490</x>
+      <y>196</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Searching Inventory</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>476</x>
+      <y>70</y>
+      <w>98</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>SearchedInventory
+--
+do/displayItems
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>511</x>
+      <y>105</y>
+      <w>217</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+User Presses Enter/Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>0</y>
+      <w>140</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Cross Icon</panel_attributes>
+    <additional_attributes>160.0;100.0;160.0;10.0;10.0;10.0;10.0;370.0;180.0;370.0;180.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>518</x>
+      <y>308</y>
+      <w>238</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Add Items Icon / Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>462</x>
+      <y>413</y>
+      <w>91</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Adding Items
+--
+do/displayFields
+
+-.
+exit/discard Item
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>413</y>
+      <w>287</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a category from dropdown/ItemCategorySet</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>427</y>
+      <w>294</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a location from dropdown/ItemLocationSet</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>392</x>
+      <y>469</y>
+      <w>182</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user enters item name/itemNameSet</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;80.0;120.0;80.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>434</x>
+      <y>469</y>
+      <w>210</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user enters item quantity/itemQuantitySet</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;120.0;140.0;120.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>371</x>
+      <y>308</y>
+      <w>336</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select add icon[if name, expiryDate entered]/add item to inventory</panel_attributes>
+    <additional_attributes>130.0;170.0;10.0;170.0;10.0;40.0;210.0;40.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>441</y>
+      <w>196</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+select date/expiryDateSet</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>91</x>
+      <y>329</y>
+      <w>385</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=-
+select cross icon[if name, expiryDate entered]/add item to inventory</panel_attributes>
+    <additional_attributes>530.0;150.0;380.0;150.0;380.0;80.0;180.0;80.0;180.0;10.0;410.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>168</x>
+      <y>378</y>
+      <w>308</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+select cross icon[if name or expiry date null]/discard item</panel_attributes>
+    <additional_attributes>420.0;90.0;70.0;90.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1036</x>
+      <y>245</y>
+      <w>287</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a category from dropdown/ItemCategorySet</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1036</x>
+      <y>259</y>
+      <w>294</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a location from dropdown/ItemLocationSet</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1036</x>
+      <y>273</y>
+      <w>196</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+select date/expiryDateSet</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>924</x>
+      <y>301</y>
+      <w>210</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user edits item quantity/itemQuantitySet</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;120.0;140.0;120.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>301</y>
+      <w>182</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user edits item name/itemNameSet</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;80.0;120.0;80.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>952</x>
+      <y>245</y>
+      <w>91</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>Editing Items
+--
+do/displayFields
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>252</y>
+      <w>378</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects cross icon/saves changes and updates inventory </panel_attributes>
+    <additional_attributes>520.0;10.0;260.0;10.0;260.0;20.0;50.0;20.0;50.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>266</y>
+      <w>378</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects save changes icon/saves changes and updates inventory </panel_attributes>
+    <additional_attributes>520.0;20.0;50.0;20.0;50.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>280</y>
+      <w>378</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects delete icon/deletes icon</panel_attributes>
+    <additional_attributes>520.0;20.0;50.0;20.0;50.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>574</x>
+      <y>308</y>
+      <w>273</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+selects checkbox marked low/updatesInventory</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;370.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>567</x>
+      <y>308</y>
+      <w>280</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>380.0;30.0;380.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>574</x>
+      <y>210</y>
+      <w>413</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Item/Popup Menu Appears </panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;40.0;200.0;40.0;200.0;20.0;570.0;20.0;570.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>217</x>
+      <y>294</y>
+      <w>308</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Select Header 
+Menu Page[that is not pantry]/exits pantry window</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0;390.0;10.0;420.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>210</x>
+      <y>301</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

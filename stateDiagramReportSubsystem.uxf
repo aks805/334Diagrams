@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>60</x>
+      <y>350</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>70</x>
+      <y>340</y>
+      <w>340</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / generateHealthReport</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>390</y>
+      <w>320</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / generateHouseholdReport</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>810</x>
+      <y>360</y>
+      <w>220</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>searchingReports
+--
+entry / search = searchTerm
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>360</y>
+      <w>440</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / viewGeneratedReports</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0;420.0;180.0;420.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>340</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>viewingReports
+--
+do/display(report(s))
+
+-.
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>370</y>
+      <w>270</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+searchReports / searchTerm</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>270</y>
+      <w>470</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+return [if search is valid]/ displayResults</panel_attributes>
+    <additional_attributes>450.0;90.0;450.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>200</y>
+      <w>260</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[if search is invalid] / displayError</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>940</x>
+      <y>190</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>180</y>
+      <w>540</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / redirected to subsection</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;20.0;520.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>600</x>
+      <y>470</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>View Freezer
+--
+do/displayItems
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>290</x>
+      <y>480</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>470</y>
+      <w>320</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Freezer/Directed To Freezer Page</panel_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>380</y>
+      <w>310</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Search Inventory/UserEntersFields</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>570</x>
+      <y>350</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Searching Inventory</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>550</x>
+      <y>170</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>SearchedInventory
+--
+do/displayItems
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>220</y>
+      <w>310</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+User Presses Enter/Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>70</y>
+      <w>200</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Cross Icon</panel_attributes>
+    <additional_attributes>160.0;100.0;160.0;10.0;10.0;10.0;10.0;370.0;180.0;370.0;180.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>510</y>
+      <w>340</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Add Items Icon / Popup Menu Appears</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>660</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Adding Items
+--
+do/displayFields
+
+-.
+exit/discard Item
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>660</y>
+      <w>410</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a category from dropdown/ItemCategorySet</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>680</y>
+      <w>420</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a location from dropdown/ItemLocationSet</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>740</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user enters item name/itemNameSet</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;80.0;120.0;80.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>740</y>
+      <w>300</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user enters item quantity/itemQuantitySet</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;120.0;140.0;120.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>510</y>
+      <w>480</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select add icon[if name, expiryDate entered]/add item to inventory</panel_attributes>
+    <additional_attributes>130.0;170.0;10.0;170.0;10.0;40.0;210.0;40.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>700</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+select date/expiryDateSet</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>540</y>
+      <w>550</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+select cross icon[if name, expiryDate entered]/add item to inventory</panel_attributes>
+    <additional_attributes>530.0;150.0;380.0;150.0;380.0;80.0;180.0;80.0;180.0;10.0;410.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>610</y>
+      <w>440</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+select cross icon[if name or expiry date null]/discard item</panel_attributes>
+    <additional_attributes>420.0;90.0;70.0;90.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1350</x>
+      <y>420</y>
+      <w>410</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a category from dropdown/ItemCategorySet</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1350</x>
+      <y>440</y>
+      <w>420</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+select a location from dropdown/ItemLocationSet</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1350</x>
+      <y>460</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+select date/expiryDateSet</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1190</x>
+      <y>500</y>
+      <w>300</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user edits item quantity/itemQuantitySet</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;120.0;140.0;120.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1130</x>
+      <y>500</y>
+      <w>260</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+user edits item name/itemNameSet</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;80.0;120.0;80.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1230</x>
+      <y>420</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Editing Items
+--
+do/displayFields
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>430</y>
+      <w>540</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects cross icon/saves changes and updates inventory </panel_attributes>
+    <additional_attributes>520.0;10.0;260.0;10.0;260.0;20.0;50.0;20.0;50.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>450</y>
+      <w>540</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects save changes icon/saves changes and updates inventory </panel_attributes>
+    <additional_attributes>520.0;20.0;50.0;20.0;50.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>470</y>
+      <w>540</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Selects delete icon/deletes icon</panel_attributes>
+    <additional_attributes>520.0;20.0;50.0;20.0;50.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>510</y>
+      <w>390</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+selects checkbox marked low/updatesInventory</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;370.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>510</y>
+      <w>400</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>380.0;30.0;380.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>370</y>
+      <w>590</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Selects Item/Popup Menu Appears </panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;40.0;200.0;40.0;200.0;20.0;570.0;20.0;570.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>490</y>
+      <w>440</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Select Header 
+Menu Page[that is not freezer]/exits freezer window</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0;390.0;10.0;420.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>170</x>
+      <y>500</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

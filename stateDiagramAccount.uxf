@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>441</x>
+      <y>414</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>522</x>
+      <y>288</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>not logged in</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>306</y>
+      <w>360</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick [email is not in db] / createAccount</panel_attributes>
+    <additional_attributes>380.0;10.0;330.0;10.0;330.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>882</x>
+      <y>486</y>
+      <w>135</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>modifyingDetails
+-
+exit/saveChanges</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>522</x>
+      <y>315</y>
+      <w>378</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+             btnClick / accountDeleted</panel_attributes>
+    <additional_attributes>400.0;220.0;60.0;220.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>819</x>
+      <y>279</y>
+      <w>333</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>logged in
+-
+
+
+valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>342</y>
+      <w>180</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / detailsEditable</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>315</y>
+      <w>99</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;120.0;90.0;120.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>612</x>
+      <y>216</y>
+      <w>351</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+login successful [accountAuthenticated] / directed to</panel_attributes>
+    <additional_attributes>20.0;100.0;90.0;100.0;90.0;20.0;370.0;20.0;370.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>153</y>
+      <w>207</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+login unsuccessful / directed to</panel_attributes>
+    <additional_attributes>120.0;150.0;120.0;20.0;100.0;20.0;100.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>909</x>
+      <y>324</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>
+idle
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>837</x>
+      <y>324</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>846</x>
+      <y>324</y>
+      <w>81</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>981</x>
+      <y>324</y>
+      <w>153</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>40.0;200.0;150.0;200.0;150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>315</y>
+      <w>234</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick / log out</panel_attributes>
+    <additional_attributes>240.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>135</x>
+      <y>279</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>create account</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>279</y>
+      <w>315</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[account created successfully] / directed to</panel_attributes>
+    <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>198</y>
+      <w>378</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+cancel process / directed to</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;20.0;400.0;20.0;400.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>54</x>
+      <y>171</y>
+      <w>225</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[email exists] / popup notification</panel_attributes>
+    <additional_attributes>130.0;120.0;130.0;20.0;110.0;20.0;110.0;120.0</additional_attributes>
+  </element>
+</diagram>

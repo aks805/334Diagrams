@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>490</x>
+      <y>240</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>idle
+-
+entry/updateItems
+do/displayItems
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>420</y>
+      <w>290</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>modifying inventory
+--
+
+
+
+-.
+exit/updateInventory
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>300</y>
+      <w>170</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+iconClick</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0;10.0;170.0;110.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>840</x>
+      <y>280</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>searching inventory
+--
+
+
+
+valign=top
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>320</y>
+      <w>90</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+itemClick</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>300</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -162,7 +162,7 @@ Health
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3558</x>
+      <x>3948</x>
       <y>288</y>
       <w>72</w>
       <h>24</h>
@@ -175,7 +175,7 @@ Meals
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3798</x>
+      <x>4026</x>
       <y>288</y>
       <w>72</w>
       <h>24</h>
@@ -201,7 +201,7 @@ Home
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>3882</x>
+      <x>4104</x>
       <y>288</y>
       <w>90</w>
       <h>24</h>
