@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>8</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>320</x>
-      <y>328</y>
-      <w>104</w>
-      <h>40</h>
+      <x>240</x>
+      <y>282</y>
+      <w>78</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>idle
 -
@@ -17,10 +17,10 @@ do/display(items)</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>920</x>
-      <y>328</y>
-      <w>144</w>
-      <h>40</h>
+      <x>690</x>
+      <y>282</y>
+      <w>108</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>displaySearchedResults
 --
@@ -32,10 +32,10 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>320</x>
-      <y>432</y>
-      <w>120</w>
-      <h>40</h>
+      <x>240</x>
+      <y>360</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>modifying inventory
 -
@@ -45,10 +45,10 @@ exit/saveChanges</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>328</y>
-      <w>264</w>
-      <h>32</h>
+      <x>312</x>
+      <y>282</y>
+      <w>198</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 btnClick [search term entered]</panel_attributes>
@@ -57,10 +57,10 @@ btnClick [search term entered]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>392</x>
-      <y>264</y>
-      <w>568</w>
-      <h>80</h>
+      <x>294</x>
+      <y>234</y>
+      <w>426</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 btnClick / searchFinished</panel_attributes>
@@ -69,10 +69,10 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>160</x>
-      <y>248</y>
-      <w>16</w>
-      <h>16</h>
+      <x>120</x>
+      <y>222</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -80,10 +80,10 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>128</x>
-      <y>256</y>
-      <w>208</w>
-      <h>104</h>
+      <x>96</x>
+      <y>228</y>
+      <w>156</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [user is part of household]</panel_attributes>
@@ -92,10 +92,10 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>344</x>
-      <y>360</y>
-      <w>64</w>
-      <h>88</h>
+      <x>258</x>
+      <y>306</y>
+      <w>48</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 btnClick</panel_attributes>
@@ -104,33 +104,35 @@ btnClick</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>336</x>
-      <y>128</y>
-      <w>64</w>
-      <h>32</h>
+      <x>252</x>
+      <y>126</y>
+      <w>84</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>notify</panel_attributes>
+    <panel_attributes>notify
+-
+entry / send email</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>152</y>
-      <w>224</w>
-      <h>192</h>
+      <x>270</x>
+      <y>150</y>
+      <w>96</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-[inventoryItemLow]/send notification</panel_attributes>
+[inventoryItemLow]</panel_attributes>
     <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>64</x>
-      <y>72</y>
-      <w>152</w>
-      <h>56</h>
+      <x>48</x>
+      <y>90</y>
+      <w>114</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>subsystem: 
 - notify 
@@ -141,45 +143,22 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>256</x>
-      <y>136</y>
-      <w>96</w>
-      <h>208</h>
+      <x>192</x>
+      <y>138</y>
+      <w>72</w>
+      <h>156</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [emailSent]</panel_attributes>
     <additional_attributes>100.0;10.0;20.0;10.0;20.0;100.0;100.0;100.0;100.0;240.0</additional_attributes>
   </element>
   <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>664</x>
-      <y>328</y>
-      <w>72</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>searching</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
-      <y>328</y>
-      <w>208</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-[computation complete]</panel_attributes>
-    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>216</x>
-      <y>360</y>
-      <w>248</w>
-      <h>232</h>
+      <x>162</x>
+      <y>306</y>
+      <w>186</w>
+      <h>174</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 btnClick [itemDetailsEdited] / itemAdded</panel_attributes>
@@ -188,13 +167,36 @@ btnClick [itemDetailsEdited] / itemAdded</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>360</y>
-      <w>264</w>
-      <h>88</h>
+      <x>300</x>
+      <y>306</y>
+      <w>198</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 btnClick [itemDetailsEdited] / detailedEdited</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>282</y>
+      <w>156</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[computation complete]</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>498</x>
+      <y>282</y>
+      <w>54</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>searching</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
