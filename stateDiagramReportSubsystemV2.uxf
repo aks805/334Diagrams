@@ -4,8 +4,8 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>273</x>
-      <y>532</y>
+      <x>175</x>
+      <y>413</y>
       <w>119</w>
       <h>35</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>448</y>
+      <x>210</x>
+      <y>329</y>
       <w>147</w>
       <h>98</h>
     </coordinates>
@@ -27,8 +27,8 @@ btnClick / reportGenerated</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>294</x>
-      <y>434</y>
+      <x>196</x>
+      <y>315</y>
       <w>56</w>
       <h>21</h>
     </coordinates>
@@ -38,8 +38,8 @@ btnClick / reportGenerated</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
-      <y>434</y>
+      <x>245</x>
+      <y>315</y>
       <w>126</w>
       <h>126</h>
     </coordinates>
@@ -49,8 +49,8 @@ btnClick / reportGenerated</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>294</x>
-      <y>616</y>
+      <x>196</x>
+      <y>497</y>
       <w>98</w>
       <h>42</h>
     </coordinates>
@@ -62,8 +62,8 @@ do/display(report)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>560</y>
+      <x>210</x>
+      <y>441</y>
       <w>161</w>
       <h>70</h>
     </coordinates>
@@ -74,8 +74,8 @@ do/display(report)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>322</x>
-      <y>399</y>
+      <x>224</x>
+      <y>280</y>
       <w>406</w>
       <h>245</h>
     </coordinates>
@@ -89,8 +89,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>322</x>
-      <y>301</y>
+      <x>224</x>
+      <y>182</y>
       <w>119</w>
       <h>84</h>
     </coordinates>
@@ -101,8 +101,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>315</x>
-      <y>280</y>
+      <x>217</x>
+      <y>161</y>
       <w>28</w>
       <h>28</h>
     </coordinates>
@@ -112,8 +112,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>280</y>
+      <x>238</x>
+      <y>161</y>
       <w>441</w>
       <h>392</h>
     </coordinates>
@@ -124,8 +124,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>210</x>
-      <y>371</y>
+      <x>112</x>
+      <y>252</y>
       <w>287</w>
       <h>210</h>
     </coordinates>
@@ -138,8 +138,8 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>672</x>
-      <y>658</y>
+      <x>574</x>
+      <y>539</y>
       <w>266</w>
       <h>175</h>
     </coordinates>
@@ -152,8 +152,8 @@ valign=top
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>742</x>
-      <y>784</y>
+      <x>644</x>
+      <y>665</y>
       <w>119</w>
       <h>35</h>
     </coordinates>
@@ -163,8 +163,8 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>777</x>
-      <y>700</y>
+      <x>679</x>
+      <y>581</y>
       <w>147</w>
       <h>98</h>
     </coordinates>
@@ -175,8 +175,8 @@ btnClick / reportGenerated</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>812</x>
-      <y>686</y>
+      <x>714</x>
+      <y>567</y>
       <w>126</w>
       <h>126</h>
     </coordinates>
@@ -186,8 +186,8 @@ btnClick / reportGenerated</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>343</x>
-      <y>651</y>
+      <x>245</x>
+      <y>532</y>
       <w>343</w>
       <h>168</h>
     </coordinates>
@@ -198,8 +198,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>763</x>
-      <y>686</y>
+      <x>665</x>
+      <y>567</y>
       <w>56</w>
       <h>21</h>
     </coordinates>
@@ -209,8 +209,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>315</x>
-      <y>651</y>
+      <x>217</x>
+      <y>532</y>
       <w>476</w>
       <h>224</h>
     </coordinates>
@@ -219,32 +219,22 @@ search item [searchTermEntered] / displayResults</panel_attributes>
     <additional_attributes>660.0;240.0;660.0;300.0;10.0;300.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>322</x>
-      <y>217</y>
-      <w>14</w>
-      <h>14</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>322</x>
-      <y>224</y>
-      <w>21</w>
+      <x>224</x>
+      <y>105</y>
+      <w>56</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+btnClick</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>679</x>
-      <y>686</y>
+      <x>581</x>
+      <y>567</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
@@ -254,8 +244,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>686</x>
-      <y>686</y>
+      <x>588</x>
+      <y>567</y>
       <w>91</w>
       <h>21</h>
     </coordinates>
@@ -265,8 +255,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>224</x>
-      <y>434</y>
+      <x>126</x>
+      <y>315</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
@@ -276,8 +266,8 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>231</x>
-      <y>434</y>
+      <x>133</x>
+      <y>315</y>
       <w>77</w>
       <h>21</h>
     </coordinates>
@@ -287,13 +277,46 @@ search item [searchTermEntered] / displayResults</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>168</x>
-      <y>210</y>
+      <x>70</x>
+      <y>91</y>
       <w>70</w>
       <h>49</h>
     </coordinates>
     <panel_attributes>report subsystem
 style=wordwrap</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>203</x>
+      <y>84</y>
+      <w>56</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>idle</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>364</x>
+      <y>0</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>7</y>
+      <w>133</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;170.0;130.0;170.0;10.0</additional_attributes>
   </element>
 </diagram>
