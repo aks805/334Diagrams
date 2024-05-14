@@ -4,8 +4,8 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>256</x>
-      <y>336</y>
+      <x>320</x>
+      <y>328</y>
       <w>104</w>
       <h>40</h>
     </coordinates>
@@ -17,8 +17,8 @@ do/display(items)</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>856</x>
-      <y>336</y>
+      <x>920</x>
+      <y>328</y>
       <w>144</w>
       <h>40</h>
     </coordinates>
@@ -32,8 +32,8 @@ valign=top</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>256</x>
-      <y>440</y>
+      <x>320</x>
+      <y>432</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -45,8 +45,8 @@ exit/saveChanges</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>336</y>
+      <x>416</x>
+      <y>328</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
@@ -57,20 +57,8 @@ btnClick [search term entered]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>368</y>
-      <w>160</w>
-      <h>88</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-btnClick / details editable </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>328</x>
-      <y>272</y>
+      <x>392</x>
+      <y>264</y>
       <w>568</w>
       <h>80</h>
     </coordinates>
@@ -81,8 +69,8 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>96</x>
-      <y>256</y>
+      <x>160</x>
+      <y>248</y>
       <w>16</w>
       <h>16</h>
     </coordinates>
@@ -92,8 +80,8 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>64</x>
-      <y>264</y>
+      <x>128</x>
+      <y>256</y>
       <w>208</w>
       <h>104</h>
     </coordinates>
@@ -104,8 +92,8 @@ btnClick / searchFinished</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>368</y>
+      <x>344</x>
+      <y>360</y>
       <w>64</w>
       <h>88</h>
     </coordinates>
@@ -116,8 +104,8 @@ btnClick</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>272</x>
-      <y>136</y>
+      <x>336</x>
+      <y>128</y>
       <w>64</w>
       <h>32</h>
     </coordinates>
@@ -127,8 +115,8 @@ btnClick</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>296</x>
-      <y>160</y>
+      <x>360</x>
+      <y>152</y>
       <w>224</w>
       <h>192</h>
     </coordinates>
@@ -139,8 +127,8 @@ btnClick</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>0</x>
-      <y>80</y>
+      <x>64</x>
+      <y>72</y>
       <w>152</w>
       <h>56</h>
     </coordinates>
@@ -153,8 +141,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>192</x>
-      <y>144</y>
+      <x>256</x>
+      <y>136</y>
       <w>96</w>
       <h>208</h>
     </coordinates>
@@ -165,8 +153,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>600</x>
-      <y>336</y>
+      <x>664</x>
+      <y>328</y>
       <w>72</w>
       <h>32</h>
     </coordinates>
@@ -176,13 +164,37 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>664</x>
-      <y>336</y>
+      <x>728</x>
+      <y>328</y>
       <w>208</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [computation complete]</panel_attributes>
     <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>216</x>
+      <y>360</y>
+      <w>248</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick [itemDetailsEdited] / itemAdded</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;50.0;10.0;50.0;10.0;270.0;160.0;270.0;160.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>360</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+btnClick [itemDetailsEdited] / detailedEdited</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
 </diagram>
