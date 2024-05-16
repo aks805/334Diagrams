@@ -9,7 +9,7 @@
       <w>200</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>idle
+    <panel_attributes>Idle
 -
 do/display(consumedItems)</panel_attributes>
     <additional_attributes/>
@@ -32,11 +32,11 @@ exit/saveChanges</panel_attributes>
     <coordinates>
       <x>340</x>
       <y>360</y>
-      <w>330</w>
+      <w>320</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-btnClick [itemDetailsEdited] / detailedEdited</panel_attributes>
+btnClick [itemDetailsEdited] / detailsEdited</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
