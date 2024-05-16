@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
   <help_text/>
-  <zoom_level>10</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
-      <y>370</y>
-      <w>180</w>
-      <h>160</h>
+      <x>288</x>
+      <y>750</y>
+      <w>108</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>&lt;&lt;window&gt;&gt;
 Shopping List
@@ -29,16 +29,16 @@ innerclass}</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>110</x>
-      <y>550</y>
-      <w>140</w>
-      <h>120</h>
+      <x>72</x>
+      <y>858</y>
+      <w>96</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Form&gt;&gt;
 Add Items
 {innerclass
 &lt;&lt;button&gt;&gt;
-add to inventory
+add to shopping list
 innerclass}
 {innerclass
 &lt;&lt;button&gt;&gt;
@@ -49,10 +49,10 @@ innerclass}</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>400</y>
-      <w>330</w>
-      <h>170</h>
+      <x>108</x>
+      <y>768</y>
+      <w>198</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click add item icon</panel_attributes>
@@ -61,10 +61,10 @@ click add item icon</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>550</y>
-      <w>140</w>
-      <h>100</h>
+      <x>198</x>
+      <y>858</y>
+      <w>84</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Form&gt;&gt;
 Add Recommended
@@ -80,21 +80,21 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>370</y>
-      <w>490</w>
-      <h>250</h>
+      <y>750</y>
+      <w>300</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-click add to inventory [allDetailsEntered]</panel_attributes>
-    <additional_attributes>120.0;230.0;70.0;230.0;70.0;20.0;470.0;20.0</additional_attributes>
+click add to shopping list [allDetailsEntered]</panel_attributes>
+    <additional_attributes>130.0;230.0;80.0;230.0;80.0;20.0;480.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>20</x>
-      <y>300</y>
-      <w>500</w>
-      <h>360</h>
+      <x>18</x>
+      <y>708</y>
+      <w>300</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 click close form icon</panel_attributes>
@@ -103,22 +103,24 @@ click close form icon</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>520</y>
-      <w>220</w>
-      <h>130</h>
+      <x>270</x>
+      <y>840</y>
+      <w>126</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
+
+
 click close form icon</panel_attributes>
-    <additional_attributes>10.0;110.0;60.0;110.0;60.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;50.0;110.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>450</y>
-      <w>230</w>
-      <h>120</h>
+      <x>168</x>
+      <y>798</y>
+      <w>138</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click recommended item icon</panel_attributes>
@@ -127,10 +129,10 @@ click recommended item icon</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>550</y>
-      <w>140</w>
-      <h>140</h>
+      <x>462</x>
+      <y>858</y>
+      <w>84</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Form&gt;&gt;
 Transfer Items 
@@ -149,10 +151,10 @@ innerclass}
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>490</y>
-      <w>220</w>
-      <h>80</h>
+      <x>384</x>
+      <y>822</y>
+      <w>132</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click transfer to inventory</panel_attributes>
@@ -161,10 +163,10 @@ click transfer to inventory</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>440</y>
-      <w>410</w>
-      <h>200</h>
+      <x>390</x>
+      <y>792</y>
+      <w>246</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click confirm sync icon [itemsSelected]</panel_attributes>
@@ -173,10 +175,10 @@ click confirm sync icon [itemsSelected]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>390</y>
-      <w>480</w>
-      <h>290</h>
+      <x>390</x>
+      <y>762</y>
+      <w>288</w>
+      <h>174</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 click close form icon</panel_attributes>
@@ -185,10 +187,10 @@ click close form icon</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>200</y>
-      <w>130</w>
-      <h>40</h>
+      <x>306</x>
+      <y>648</y>
+      <w>78</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
 Shopping List
@@ -198,22 +200,22 @@ Shopping List
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>30</y>
-      <w>350</w>
-      <h>190</h>
+      <x>330</x>
+      <y>546</y>
+      <w>210</w>
+      <h>114</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-Choose shopping list</panel_attributes>
+Choose Shopping List</panel_attributes>
     <additional_attributes>10.0;170.0;10.0;50.0;330.0;50.0;330.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>860</x>
-      <y>0</y>
-      <w>110</w>
-      <h>40</h>
+      <x>522</x>
+      <y>528</y>
+      <w>66</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>&lt;&lt;window&gt;&gt;
 Main menu</panel_attributes>
@@ -222,10 +224,10 @@ Main menu</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>230</y>
-      <w>90</w>
-      <h>160</h>
+      <x>324</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 Click link</panel_attributes>
@@ -234,10 +236,10 @@ Click link</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1350</x>
-      <y>200</y>
-      <w>130</w>
-      <h>40</h>
+      <x>858</x>
+      <y>648</y>
+      <w>78</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
 Fridge
@@ -247,10 +249,10 @@ Fridge
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>180</y>
-      <w>1180</w>
-      <h>30</h>
+      <x>294</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
@@ -258,10 +260,10 @@ Fridge
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1290</x>
-      <y>390</y>
-      <w>180</w>
-      <h>120</h>
+      <x>840</x>
+      <y>750</y>
+      <w>108</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>&lt;&lt;window&gt;&gt;
 Fridge
@@ -279,34 +281,1626 @@ innerclass}
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1150</x>
-      <y>470</y>
-      <w>170</w>
-      <h>100</h>
+      <x>660</x>
+      <y>792</y>
+      <w>198</w>
+      <h>78</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0;150.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click search inventory [enter search term]</panel_attributes>
+    <additional_attributes>70.0;110.0;70.0;20.0;310.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1110</x>
-      <y>550</y>
-      <w>140</w>
-      <h>140</h>
+      <x>672</x>
+      <y>858</y>
+      <w>84</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Form&gt;&gt;
-Transfer Items 
-To Inventory
-{innerclass
-&lt;&lt;button&gt;&gt;
-confirm sync
-innerclass}
+Search Inventory 
+Items
 {innerclass
 &lt;&lt;button&gt;&gt;
 close form
 innerclass}
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>816</y>
+      <w>150</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click close form icon</panel_attributes>
+    <additional_attributes>10.0;150.0;180.0;150.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>462</x>
+      <y>1062</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>840</y>
+      <w>108</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>130.0;390.0;70.0;390.0;70.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>840</y>
+      <w>150</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>840</y>
+      <w>150</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+click delete item</panel_attributes>
+    <additional_attributes>230.0;460.0;120.0;460.0;120.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>840</y>
+      <w>174</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;500.0;130.0;500.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>936</x>
+      <y>768</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click add item icon</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>768</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Add Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+add to inventory
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>942</x>
+      <y>786</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click add to inventory [allDetailsEntered]</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>918</x>
+      <y>816</y>
+      <w>126</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>160.0;390.0;100.0;390.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>816</y>
+      <w>174</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes icon</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>816</y>
+      <w>168</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+click delete item icon</panel_attributes>
+    <additional_attributes>230.0;460.0;120.0;460.0;120.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>864</x>
+      <y>816</y>
+      <w>174</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;500.0;130.0;500.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1014</x>
+      <y>1038</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>942</x>
+      <y>798</y>
+      <w>246</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>390.0;50.0;340.0;50.0;340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1476</x>
+      <y>750</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;window&gt;&gt;
+Freezer
+{innerclass
+&lt;&lt;button&gt;&gt;
+Add Item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+search inventory
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>792</y>
+      <w>198</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click search inventory [enter search term]</panel_attributes>
+    <additional_attributes>70.0;110.0;70.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1308</x>
+      <y>858</y>
+      <w>84</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Search Inventory 
+Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1380</x>
+      <y>816</y>
+      <w>150</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click close form icon</panel_attributes>
+    <additional_attributes>10.0;150.0;180.0;150.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1500</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1572</x>
+      <y>768</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click add item icon</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1806</x>
+      <y>768</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Add Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+add to inventory
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1578</x>
+      <y>786</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click add to inventory [allDetailsEntered]</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1554</x>
+      <y>816</y>
+      <w>126</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>160.0;390.0;100.0;390.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1536</x>
+      <y>816</y>
+      <w>174</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes icon</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1518</x>
+      <y>816</y>
+      <w>168</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+click delete item icon</panel_attributes>
+    <additional_attributes>230.0;460.0;120.0;460.0;120.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1500</x>
+      <y>816</y>
+      <w>174</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;500.0;130.0;500.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1650</x>
+      <y>1038</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1578</x>
+      <y>798</y>
+      <w>246</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>390.0;50.0;340.0;50.0;340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1494</x>
+      <y>648</y>
+      <w>78</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
+Freezer
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1536</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2130</x>
+      <y>750</y>
+      <w>108</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;window&gt;&gt;
+Pantry
+{innerclass
+&lt;&lt;button&gt;&gt;
+Add Item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+search inventory
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1950</x>
+      <y>792</y>
+      <w>198</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click search inventory [enter search term]</panel_attributes>
+    <additional_attributes>70.0;110.0;70.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1962</x>
+      <y>858</y>
+      <w>84</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Search Inventory 
+Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2034</x>
+      <y>816</y>
+      <w>150</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click close form icon</panel_attributes>
+    <additional_attributes>10.0;150.0;180.0;150.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2154</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2226</x>
+      <y>768</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click add item icon</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2460</x>
+      <y>768</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Add Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+add to inventory
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2232</x>
+      <y>786</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click add to inventory [allDetailsEntered]</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2208</x>
+      <y>816</y>
+      <w>126</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>160.0;390.0;100.0;390.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2190</x>
+      <y>816</y>
+      <w>174</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes icon</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2172</x>
+      <y>816</y>
+      <w>168</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+click delete item icon</panel_attributes>
+    <additional_attributes>230.0;460.0;120.0;460.0;120.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2154</x>
+      <y>816</y>
+      <w>174</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;500.0;130.0;500.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2304</x>
+      <y>1038</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2232</x>
+      <y>798</y>
+      <w>246</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>390.0;50.0;340.0;50.0;340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2148</x>
+      <y>648</y>
+      <w>78</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
+Pantry
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>534</x>
+      <y>546</y>
+      <w>354</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Choose Fridge</panel_attributes>
+    <additional_attributes>570.0;170.0;570.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>546</y>
+      <w>972</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Choose Freezer</panel_attributes>
+    <additional_attributes>1600.0;170.0;1600.0;120.0;10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>546</y>
+      <w>1620</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Choose Pantry</panel_attributes>
+    <additional_attributes>2680.0;170.0;2680.0;100.0;10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2202</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2820</x>
+      <y>648</y>
+      <w>78</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
+Health Tracker
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2796</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2808</x>
+      <y>750</y>
+      <w>108</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;window&gt;&gt;
+Health Tracker
+{innerclass
+&lt;&lt;button&gt;&gt;
+Add Item
+innerclass}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3162</x>
+      <y>750</y>
+      <w>102</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Add Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+add to health tracker
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2898</x>
+      <y>750</y>
+      <w>276</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click add item icon</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2910</x>
+      <y>762</y>
+      <w>270</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click add item [allDetailsEntered]</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2910</x>
+      <y>774</y>
+      <w>270</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>430.0;50.0;340.0;50.0;340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2886</x>
+      <y>792</y>
+      <w>126</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>160.0;390.0;100.0;390.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2868</x>
+      <y>792</y>
+      <w>174</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes icon</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2850</x>
+      <y>792</y>
+      <w>168</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+click delete item icon</panel_attributes>
+    <additional_attributes>230.0;460.0;120.0;460.0;120.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2832</x>
+      <y>792</y>
+      <w>174</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;500.0;130.0;500.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2982</x>
+      <y>1014</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Items
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete item
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2832</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>546</y>
+      <w>2280</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Choose Health Track</panel_attributes>
+    <additional_attributes>3780.0;170.0;3780.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3636</x>
+      <y>648</y>
+      <w>108</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;hyperlink&gt;&gt;
+Meals
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3372</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3636</x>
+      <y>750</y>
+      <w>108</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;window&gt;&gt;
+Meals Recommendations
+{innerclass
+&lt;&lt;button&gt;&gt;
+Add Item
+innerclass}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3654</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3990</x>
+      <y>750</y>
+      <w>168</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Add Recipe
+{innerclass
+&lt;&lt;button&gt;&gt;
+add recipe to meal recommendations
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+cancel
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3738</x>
+      <y>762</y>
+      <w>270</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+click save [allDetailsEntered]</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3738</x>
+      <y>774</y>
+      <w>270</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+click cancel button</panel_attributes>
+    <additional_attributes>430.0;50.0;340.0;50.0;340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3726</x>
+      <y>750</y>
+      <w>276</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click add item icon</panel_attributes>
+    <additional_attributes>440.0;20.0;10.0;20.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3690</x>
+      <y>792</y>
+      <w>126</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on item</panel_attributes>
+    <additional_attributes>160.0;390.0;100.0;390.0;100.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3672</x>
+      <y>792</y>
+      <w>174</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+click save changes icon</panel_attributes>
+    <additional_attributes>200.0;420.0;110.0;420.0;110.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3636</x>
+      <y>792</y>
+      <w>174</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+
+
+
+
+
+
+
+
+
+
+click close form icon</panel_attributes>
+    <additional_attributes>260.0;460.0;130.0;460.0;130.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3786</x>
+      <y>1014</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Recipe
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4530</x>
+      <y>750</y>
+      <w>126</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Window&gt;&gt;
+Report
+{innerclass
+&lt;&lt;button&gt;&gt;
+Generate Health Report
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+Generate Household Report
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3942</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4338</x>
+      <y>828</y>
+      <w>102</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Health Report
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4368</x>
+      <y>768</y>
+      <w>180</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click generate health report button</panel_attributes>
+    <additional_attributes>50.0;100.0;50.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4344</x>
+      <y>744</y>
+      <w>198</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click health report</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4554</x>
+      <y>648</y>
+      <w>72</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Hyperlink&gt;&gt;
+Report
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4560</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4428</x>
+      <y>816</y>
+      <w>132</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click close form icon</panel_attributes>
+    <additional_attributes>190.0;10.0;190.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4626</x>
+      <y>816</y>
+      <w>198</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click close form icon</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;310.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4806</x>
+      <y>822</y>
+      <w>102</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Health Report
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4644</x>
+      <y>792</y>
+      <w>192</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click generate household report button</panel_attributes>
+    <additional_attributes>300.0;50.0;300.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4650</x>
+      <y>750</y>
+      <w>234</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click household report</panel_attributes>
+    <additional_attributes>370.0;120.0;370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>4590</x>
+      <y>636</y>
+      <w>708</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;1160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>5226</x>
+      <y>648</y>
+      <w>72</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Hyperlink&gt;&gt;
+Account
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>5196</x>
+      <y>750</y>
+      <w>126</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Window&gt;&gt;
+Account Profile
+{innerclass
+&lt;&lt;button&gt;&gt;
+Logout
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+Edit Profile
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+Manage household
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>5496</x>
+      <y>822</y>
+      <w>102</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Window&gt;&gt;
+Manage Household
+{innerclass
+&lt;&lt;button&gt;&gt;
+delete household
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+return to profile
+innerclass}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5310</x>
+      <y>822</y>
+      <w>198</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click on manage household button</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5298</x>
+      <y>840</y>
+      <w>216</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+click on delete household button</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;290.0;40.0;290.0;20.0;340.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5274</x>
+      <y>840</y>
+      <w>240</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click on return to profile button</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;380.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>360</y>
+      <w>4566</w>
+      <h>438</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+clicks on logout</panel_attributes>
+    <additional_attributes>10.0;20.0;7470.0;20.0;7470.0;710.0;7590.0;710.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4986</x>
+      <y>840</y>
+      <w>84</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+Edit Profie
+{innerclass
+&lt;&lt;button&gt;&gt;
+save changes
+innerclass}
+{innerclass
+&lt;&lt;button&gt;&gt;
+close form
+innerclass}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5034</x>
+      <y>798</y>
+      <w>186</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click on edit profile button</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5058</x>
+      <y>840</y>
+      <w>174</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Clicks on save changes icon</panel_attributes>
+    <additional_attributes>270.0;10.0;270.0;50.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5058</x>
+      <y>840</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Clicks on close form icon</panel_attributes>
+    <additional_attributes>300.0;10.0;300.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>5232</x>
+      <y>666</y>
+      <w>54</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Click link</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>582</x>
+      <y>540</y>
+      <w>3090</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+Choose Meals</panel_attributes>
+    <additional_attributes>5130.0;180.0;5130.0;70.0;40.0;70.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>534</x>
+      <y>360</y>
+      <w>66</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;window&gt;&gt;
+Login</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
