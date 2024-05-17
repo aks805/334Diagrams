@@ -6,7 +6,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>384</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>128</h>
     </coordinates>
@@ -30,7 +30,7 @@ innerclass}</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>96</x>
-      <y>944</y>
+      <y>928</y>
       <w>128</w>
       <h>96</h>
     </coordinates>
@@ -50,7 +50,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>144</x>
-      <y>824</y>
+      <y>808</y>
       <w>264</w>
       <h>136</h>
     </coordinates>
@@ -62,7 +62,7 @@ click add item icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>264</x>
-      <y>944</y>
+      <y>928</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -80,7 +80,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>800</y>
+      <y>784</y>
       <w>400</w>
       <h>200</h>
     </coordinates>
@@ -92,7 +92,7 @@ click add to shopping list [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>24</x>
-      <y>744</y>
+      <y>728</y>
       <w>400</w>
       <h>288</h>
     </coordinates>
@@ -104,7 +104,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>920</y>
+      <y>904</y>
       <w>168</w>
       <h>104</h>
     </coordinates>
@@ -118,7 +118,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>864</y>
+      <y>848</y>
       <w>184</w>
       <h>96</h>
     </coordinates>
@@ -130,7 +130,7 @@ click recommended item icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>616</x>
-      <y>944</y>
+      <y>928</y>
       <w>112</w>
       <h>112</h>
     </coordinates>
@@ -152,7 +152,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>512</x>
-      <y>896</y>
+      <y>880</y>
       <w>176</w>
       <h>64</h>
     </coordinates>
@@ -164,7 +164,7 @@ click transfer to inventory</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>856</y>
+      <y>840</y>
       <w>328</w>
       <h>160</h>
     </coordinates>
@@ -176,7 +176,7 @@ click confirm sync icon [itemsSelected]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>816</y>
+      <y>800</y>
       <w>384</w>
       <h>232</h>
     </coordinates>
@@ -188,7 +188,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>408</x>
-      <y>664</y>
+      <y>648</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -201,7 +201,7 @@ Shopping List
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>528</y>
+      <y>512</y>
       <w>280</w>
       <h>152</h>
     </coordinates>
@@ -213,7 +213,7 @@ Choose Shopping List</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>696</x>
-      <y>504</y>
+      <y>488</y>
       <w>88</w>
       <h>32</h>
     </coordinates>
@@ -225,7 +225,7 @@ Main menu</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>432</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -237,7 +237,7 @@ Click link</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1144</x>
-      <y>664</y>
+      <y>648</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -250,7 +250,7 @@ Fridge
     <id>UMLClass</id>
     <coordinates>
       <x>1120</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>96</h>
     </coordinates>
@@ -271,7 +271,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>880</x>
-      <y>856</y>
+      <y>840</y>
       <w>264</w>
       <h>104</h>
     </coordinates>
@@ -283,7 +283,7 @@ click search inventory [enter search term]</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>896</x>
-      <y>944</y>
+      <y>928</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -301,7 +301,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>992</x>
-      <y>888</y>
+      <y>872</y>
       <w>200</w>
       <h>136</h>
     </coordinates>
@@ -313,7 +313,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1152</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -325,7 +325,7 @@ Click link</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>616</x>
-      <y>1216</y>
+      <y>1200</y>
       <w>112</w>
       <h>128</h>
     </coordinates>
@@ -349,7 +349,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>512</x>
-      <y>920</y>
+      <y>904</y>
       <w>144</w>
       <h>328</h>
     </coordinates>
@@ -361,7 +361,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>464</x>
-      <y>920</y>
+      <y>904</y>
       <w>200</w>
       <h>352</h>
     </coordinates>
@@ -378,7 +378,7 @@ click save changes</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>440</x>
-      <y>920</y>
+      <y>904</y>
       <w>200</w>
       <h>384</h>
     </coordinates>
@@ -398,7 +398,7 @@ click delete item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>416</x>
-      <y>920</y>
+      <y>904</y>
       <w>232</w>
       <h>416</h>
     </coordinates>
@@ -420,7 +420,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1248</x>
-      <y>824</y>
+      <y>808</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -432,7 +432,7 @@ click add item icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1560</x>
-      <y>824</y>
+      <y>808</y>
       <w>112</w>
       <h>96</h>
     </coordinates>
@@ -452,7 +452,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1256</x>
-      <y>848</y>
+      <y>832</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -464,7 +464,7 @@ click add to inventory [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1224</x>
-      <y>888</y>
+      <y>872</y>
       <w>168</w>
       <h>328</h>
     </coordinates>
@@ -476,7 +476,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1200</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>352</h>
     </coordinates>
@@ -493,7 +493,7 @@ click save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1176</x>
-      <y>888</y>
+      <y>872</y>
       <w>224</w>
       <h>384</h>
     </coordinates>
@@ -513,7 +513,7 @@ click delete item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1152</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>416</h>
     </coordinates>
@@ -535,7 +535,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1352</x>
-      <y>1184</y>
+      <y>1168</y>
       <w>112</w>
       <h>128</h>
     </coordinates>
@@ -559,7 +559,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1256</x>
-      <y>864</y>
+      <y>848</y>
       <w>328</w>
       <h>56</h>
     </coordinates>
@@ -573,7 +573,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1968</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>96</h>
     </coordinates>
@@ -594,7 +594,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>1728</x>
-      <y>856</y>
+      <y>840</y>
       <w>264</w>
       <h>104</h>
     </coordinates>
@@ -606,7 +606,7 @@ click search inventory [enter search term]</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1744</x>
-      <y>944</y>
+      <y>928</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -624,7 +624,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>1840</x>
-      <y>888</y>
+      <y>872</y>
       <w>200</w>
       <h>136</h>
     </coordinates>
@@ -636,7 +636,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2000</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -648,7 +648,7 @@ Click link</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2096</x>
-      <y>824</y>
+      <y>808</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -660,7 +660,7 @@ click add item icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>2408</x>
-      <y>824</y>
+      <y>808</y>
       <w>112</w>
       <h>96</h>
     </coordinates>
@@ -680,7 +680,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2104</x>
-      <y>848</y>
+      <y>832</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -692,7 +692,7 @@ click add to inventory [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2072</x>
-      <y>888</y>
+      <y>872</y>
       <w>168</w>
       <h>328</h>
     </coordinates>
@@ -704,7 +704,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2048</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>352</h>
     </coordinates>
@@ -721,7 +721,7 @@ click save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2024</x>
-      <y>888</y>
+      <y>872</y>
       <w>224</w>
       <h>384</h>
     </coordinates>
@@ -741,7 +741,7 @@ click delete item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2000</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>416</h>
     </coordinates>
@@ -763,7 +763,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>2200</x>
-      <y>1184</y>
+      <y>1168</y>
       <w>112</w>
       <h>128</h>
     </coordinates>
@@ -787,7 +787,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2104</x>
-      <y>864</y>
+      <y>848</y>
       <w>328</w>
       <h>56</h>
     </coordinates>
@@ -801,7 +801,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1992</x>
-      <y>664</y>
+      <y>648</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -814,7 +814,7 @@ Freezer
     <id>UMLClass</id>
     <coordinates>
       <x>2840</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>96</h>
     </coordinates>
@@ -835,7 +835,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>2600</x>
-      <y>856</y>
+      <y>840</y>
       <w>264</w>
       <h>104</h>
     </coordinates>
@@ -847,7 +847,7 @@ click search inventory [enter search term]</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>2616</x>
-      <y>944</y>
+      <y>928</y>
       <w>112</w>
       <h>80</h>
     </coordinates>
@@ -865,7 +865,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>2712</x>
-      <y>888</y>
+      <y>872</y>
       <w>200</w>
       <h>136</h>
     </coordinates>
@@ -877,7 +877,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2872</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -889,7 +889,7 @@ Click link</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2968</x>
-      <y>824</y>
+      <y>808</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -901,7 +901,7 @@ click add item icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>3280</x>
-      <y>824</y>
+      <y>808</y>
       <w>112</w>
       <h>96</h>
     </coordinates>
@@ -921,7 +921,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2976</x>
-      <y>848</y>
+      <y>832</y>
       <w>328</w>
       <h>32</h>
     </coordinates>
@@ -933,7 +933,7 @@ click add to inventory [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2944</x>
-      <y>888</y>
+      <y>872</y>
       <w>168</w>
       <h>328</h>
     </coordinates>
@@ -945,7 +945,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2920</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>352</h>
     </coordinates>
@@ -962,7 +962,7 @@ click save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2896</x>
-      <y>888</y>
+      <y>872</y>
       <w>224</w>
       <h>384</h>
     </coordinates>
@@ -982,7 +982,7 @@ click delete item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2872</x>
-      <y>888</y>
+      <y>872</y>
       <w>232</w>
       <h>416</h>
     </coordinates>
@@ -1004,7 +1004,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>3072</x>
-      <y>1184</y>
+      <y>1168</y>
       <w>112</w>
       <h>128</h>
     </coordinates>
@@ -1028,7 +1028,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2976</x>
-      <y>864</y>
+      <y>848</y>
       <w>328</w>
       <h>56</h>
     </coordinates>
@@ -1042,7 +1042,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>2864</x>
-      <y>664</y>
+      <y>648</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -1055,7 +1055,7 @@ Pantry
     <id>Relation</id>
     <coordinates>
       <x>712</x>
-      <y>528</y>
+      <y>512</y>
       <w>472</w>
       <h>152</h>
     </coordinates>
@@ -1067,7 +1067,7 @@ Choose Fridge</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>728</x>
-      <y>528</y>
+      <y>512</y>
       <w>1296</w>
       <h>152</h>
     </coordinates>
@@ -1079,7 +1079,7 @@ Choose Freezer</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>744</x>
-      <y>528</y>
+      <y>512</y>
       <w>2160</w>
       <h>152</h>
     </coordinates>
@@ -1091,7 +1091,7 @@ Choose Pantry</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>3760</x>
-      <y>664</y>
+      <y>648</y>
       <w>104</w>
       <h>32</h>
     </coordinates>
@@ -1104,7 +1104,7 @@ Health Tracker
     <id>UMLClass</id>
     <coordinates>
       <x>3744</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>64</h>
     </coordinates>
@@ -1122,7 +1122,7 @@ innerclass}
     <id>UMLClass</id>
     <coordinates>
       <x>4216</x>
-      <y>800</y>
+      <y>784</y>
       <w>136</w>
       <h>96</h>
     </coordinates>
@@ -1142,7 +1142,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3864</x>
-      <y>800</y>
+      <y>784</y>
       <w>368</w>
       <h>56</h>
     </coordinates>
@@ -1154,7 +1154,7 @@ click add item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3880</x>
-      <y>816</y>
+      <y>800</y>
       <w>360</w>
       <h>32</h>
     </coordinates>
@@ -1166,7 +1166,7 @@ click add item [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3880</x>
-      <y>832</y>
+      <y>816</y>
       <w>360</w>
       <h>56</h>
     </coordinates>
@@ -1180,7 +1180,7 @@ click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3848</x>
-      <y>856</y>
+      <y>840</y>
       <w>168</w>
       <h>328</h>
     </coordinates>
@@ -1192,7 +1192,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3824</x>
-      <y>856</y>
+      <y>840</y>
       <w>232</w>
       <h>352</h>
     </coordinates>
@@ -1209,7 +1209,7 @@ click save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3800</x>
-      <y>856</y>
+      <y>840</y>
       <w>224</w>
       <h>384</h>
     </coordinates>
@@ -1229,7 +1229,7 @@ click delete item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3776</x>
-      <y>856</y>
+      <y>840</y>
       <w>232</w>
       <h>416</h>
     </coordinates>
@@ -1251,7 +1251,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>3976</x>
-      <y>1152</y>
+      <y>1136</y>
       <w>112</w>
       <h>128</h>
     </coordinates>
@@ -1275,7 +1275,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3776</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -1287,7 +1287,7 @@ Click link</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>760</x>
-      <y>528</y>
+      <y>512</y>
       <w>3040</w>
       <h>152</h>
     </coordinates>
@@ -1299,7 +1299,7 @@ Choose Health Track</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>4848</x>
-      <y>664</y>
+      <y>648</y>
       <w>144</w>
       <h>32</h>
     </coordinates>
@@ -1312,7 +1312,7 @@ Meals
     <id>UMLClass</id>
     <coordinates>
       <x>4848</x>
-      <y>800</y>
+      <y>784</y>
       <w>144</w>
       <h>64</h>
     </coordinates>
@@ -1330,7 +1330,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>4872</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -1342,7 +1342,7 @@ Click link</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>5320</x>
-      <y>800</y>
+      <y>784</y>
       <w>224</w>
       <h>96</h>
     </coordinates>
@@ -1362,7 +1362,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4984</x>
-      <y>816</y>
+      <y>800</y>
       <w>360</w>
       <h>32</h>
     </coordinates>
@@ -1374,7 +1374,7 @@ click save [allDetailsEntered]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4984</x>
-      <y>832</y>
+      <y>816</y>
       <w>360</w>
       <h>56</h>
     </coordinates>
@@ -1388,7 +1388,7 @@ click cancel button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4968</x>
-      <y>800</y>
+      <y>784</y>
       <w>368</w>
       <h>56</h>
     </coordinates>
@@ -1400,7 +1400,7 @@ click add item icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4920</x>
-      <y>856</y>
+      <y>840</y>
       <w>168</w>
       <h>328</h>
     </coordinates>
@@ -1412,7 +1412,7 @@ clicks on item</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4896</x>
-      <y>856</y>
+      <y>840</y>
       <w>232</w>
       <h>352</h>
     </coordinates>
@@ -1429,7 +1429,7 @@ click save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>4848</x>
-      <y>856</y>
+      <y>840</y>
       <w>232</w>
       <h>384</h>
     </coordinates>
@@ -1451,7 +1451,7 @@ click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>5048</x>
-      <y>1152</y>
+      <y>1136</y>
       <w>112</w>
       <h>96</h>
     </coordinates>
@@ -1471,7 +1471,7 @@ innerclass}</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>6040</x>
-      <y>800</y>
+      <y>784</y>
       <w>168</w>
       <h>96</h>
     </coordinates>
@@ -1492,7 +1492,7 @@ innerclass}
     <id>UMLClass</id>
     <coordinates>
       <x>5784</x>
-      <y>904</y>
+      <y>888</y>
       <w>136</w>
       <h>64</h>
     </coordinates>
@@ -1508,7 +1508,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>5824</x>
-      <y>824</y>
+      <y>808</y>
       <w>240</w>
       <h>96</h>
     </coordinates>
@@ -1520,7 +1520,7 @@ Click generate health report button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>5792</x>
-      <y>792</y>
+      <y>776</y>
       <w>264</w>
       <h>128</h>
     </coordinates>
@@ -1532,7 +1532,7 @@ Click health report</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>6072</x>
-      <y>664</y>
+      <y>648</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -1545,7 +1545,7 @@ Report
     <id>Relation</id>
     <coordinates>
       <x>6080</x>
-      <y>688</y>
+      <y>672</y>
       <w>72</w>
       <h>128</h>
     </coordinates>
@@ -1557,7 +1557,7 @@ Click link</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>5904</x>
-      <y>888</y>
+      <y>872</y>
       <w>176</w>
       <h>80</h>
     </coordinates>
@@ -1569,7 +1569,7 @@ Click close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6168</x>
-      <y>888</y>
+      <y>872</y>
       <w>264</w>
       <h>72</h>
     </coordinates>
@@ -1581,7 +1581,7 @@ Click close form icon</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>6408</x>
-      <y>896</y>
+      <y>880</y>
       <w>136</w>
       <h>64</h>
     </coordinates>
@@ -1597,7 +1597,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6192</x>
-      <y>856</y>
+      <y>840</y>
       <w>256</w>
       <h>56</h>
     </coordinates>
@@ -1609,7 +1609,7 @@ Click generate household report button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6200</x>
-      <y>800</y>
+      <y>784</y>
       <w>312</w>
       <h>112</h>
     </coordinates>
@@ -1621,7 +1621,7 @@ Click household report</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>6968</x>
-      <y>664</y>
+      <y>648</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -1634,7 +1634,7 @@ Account
     <id>UMLClass</id>
     <coordinates>
       <x>6928</x>
-      <y>800</y>
+      <y>784</y>
       <w>168</w>
       <h>128</h>
     </coordinates>
@@ -1658,7 +1658,7 @@ innerclass}</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>7328</x>
-      <y>896</y>
+      <y>880</y>
       <w>136</w>
       <h>96</h>
     </coordinates>
@@ -1679,7 +1679,7 @@ innerclass}
     <id>Relation</id>
     <coordinates>
       <x>7080</x>
-      <y>896</y>
+      <y>880</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
@@ -1691,7 +1691,7 @@ Click on manage household button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>7064</x>
-      <y>920</y>
+      <y>904</y>
       <w>288</w>
       <h>48</h>
     </coordinates>
@@ -1703,7 +1703,7 @@ click on delete household button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>7032</x>
-      <y>920</y>
+      <y>904</y>
       <w>320</w>
       <h>72</h>
     </coordinates>
@@ -1715,7 +1715,7 @@ Click on return to profile button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>792</x>
-      <y>280</y>
+      <y>264</y>
       <w>6160</w>
       <h>584</h>
     </coordinates>
@@ -1727,7 +1727,7 @@ clicks on logout</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>6648</x>
-      <y>920</y>
+      <y>904</y>
       <w>112</w>
       <h>96</h>
     </coordinates>
@@ -1747,7 +1747,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6712</x>
-      <y>864</y>
+      <y>848</y>
       <w>248</w>
       <h>72</h>
     </coordinates>
@@ -1759,7 +1759,7 @@ Click on edit profile button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6744</x>
-      <y>920</y>
+      <y>904</y>
       <w>232</w>
       <h>56</h>
     </coordinates>
@@ -1771,7 +1771,7 @@ Clicks on save changes icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6744</x>
-      <y>920</y>
+      <y>904</y>
       <w>256</w>
       <h>96</h>
     </coordinates>
@@ -1783,7 +1783,7 @@ Clicks on close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>6976</x>
-      <y>688</y>
+      <y>672</y>
       <w>88</w>
       <h>128</h>
     </coordinates>
@@ -1795,7 +1795,7 @@ Click button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>776</x>
-      <y>520</y>
+      <y>504</y>
       <w>4120</w>
       <h>160</h>
     </coordinates>
@@ -1807,7 +1807,7 @@ Choose Meals</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>680</x>
-      <y>272</y>
+      <y>256</y>
       <w>120</w>
       <h>128</h>
     </coordinates>
@@ -1831,7 +1831,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>608</x>
-      <y>304</y>
+      <y>288</y>
       <w>232</w>
       <h>216</h>
     </coordinates>
@@ -1843,7 +1843,7 @@ Click sign in button [credentialsMatch]</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1032</x>
-      <y>336</y>
+      <y>320</y>
       <w>136</w>
       <h>96</h>
     </coordinates>
@@ -1863,7 +1863,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>792</x>
-      <y>384</y>
+      <y>368</y>
       <w>264</w>
       <h>40</h>
     </coordinates>
@@ -1875,7 +1875,7 @@ Clicks on close form icon</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1152</x>
-      <y>368</y>
+      <y>352</y>
       <w>232</w>
       <h>64</h>
     </coordinates>
@@ -1887,7 +1887,7 @@ clicks send recovery code</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>776</x>
-      <y>344</y>
+      <y>328</y>
       <w>272</w>
       <h>48</h>
     </coordinates>
@@ -1899,7 +1899,7 @@ Clicks on forgot password link</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>264</x>
-      <y>240</y>
+      <y>224</y>
       <w>144</w>
       <h>104</h>
     </coordinates>
@@ -1919,7 +1919,7 @@ innerclass}</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>256</y>
+      <y>240</y>
       <w>304</w>
       <h>104</h>
     </coordinates>
@@ -1931,7 +1931,7 @@ click creater account button</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>384</x>
-      <y>176</y>
+      <y>160</y>
       <w>328</w>
       <h>120</h>
     </coordinates>
@@ -1943,7 +1943,7 @@ click create account button [credentialsValid]</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>384</x>
-      <y>312</y>
+      <y>296</y>
       <w>312</w>
       <h>72</h>
     </coordinates>
@@ -1955,7 +1955,7 @@ click return to login link</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>776</x>
-      <y>504</y>
+      <y>488</y>
       <w>5328</w>
       <h>176</h>
     </coordinates>
@@ -1967,7 +1967,7 @@ Choose Report</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>760</x>
-      <y>488</y>
+      <y>472</y>
       <w>6240</w>
       <h>192</h>
     </coordinates>

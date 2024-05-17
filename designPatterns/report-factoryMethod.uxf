@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <help_text/>
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>136</x>
+      <y>24</y>
+      <w>288</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract Class&gt;&gt;
+Report
+--
+- reportName : String
+- dateCreated : LocalDateTime
+- reportId Long
+- type : String
+- content : String
+-
++getReportName() : String
++getDateCreated() : LocalDateTime
++getReportId() : Long
++getContent() : String
++getType() : String
++getReportId() : Long
++setReportName(reportName : String)     
++setDateCreated(dateCreated : LocalDateTime) 
++setReportId(reportId : Long)           
++setType(type : String)                 
++setContent(content : String) </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>472</y>
+      <w>168</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Class&gt;&gt;
+ReportFactory
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>384</y>
+      <w>168</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Class&gt;&gt;
+ReportGenerator
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>336</y>
+      <w>256</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Class&gt;&gt;
+HealthReport
+--
+- averageCarbs : Integer
+- caloriGoal : Integer
+- userProfile : UserProfile 
+- averageProtein : Integer
+- weeklyCalories : Integer 
+- averageFats : Integer
+-
++getAverageCarbs() : Integer            
++getCaloriGoal() : Integer              
++getUserProfile() : UserProfile         
++getAverageProtein() : Integer          
++getAverageFats() : Integer
++getWeeklyCalories() : Integer
++setAverageCarbs(averageCarbs : Integer)
++setCaloriGoal(caloriGoal : Integer)    
++setAverageProtein(averageProtein : Integer)
++setUserProfile(userProfile : UserProfile)
++setWeeklyCalories(weeklyCalories : Integer)
++setAverageFats(averageFats : Integer)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>336</y>
+      <w>376</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Class&gt;&gt;
+HouseholdReport
+--
+- household : Household 
+- expiredItems : List&lt;InventoryItem&gt;
+- lowInventoryItems : List&lt;InventoryItem&gt;
+- inventoryItems : List&lt;InventoryItem&gt;
+- soonToExpireItems : List&lt;InventoryItem&gt;
+- topPopularItems : List&lt;InventoryItem&gt;
+-
++getHousehold() : Household                      
++getExpiredItems() : List&lt;InventoryItem&gt;         
++getLowInventoryItems() : List&lt;InventoryItem&gt;    
++getInventoryItems() : List&lt;InventoryItem&gt;       
++getSoonToExpireItems() : List&lt;InventoryItem&gt;    
++getTopPopularItems() : List&lt;InventoryItem&gt; 
++setHousehold(household : Household)
++setExpiredItems(expiredItems : List&lt;InventoryItem&gt;)
++setLowInventoryItems(lowInventoryItems : List&lt;InventoryItem&gt;)
++setInventoryItems(inventoryItems : List&lt;InventoryItem&gt;)
++setSoonToExpireItems(soonToExpireItems : List&lt;InventoryItem&gt;)
++setTopPopularItems(topPopularItems : List&lt;InventoryItem&gt;)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>176</x>
+      <y>264</y>
+      <w>96</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;100.0;30.0;10.0;30.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>248</x>
+      <y>264</y>
+      <w>136</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;150.0;30.0;150.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>752</x>
+      <y>120</y>
+      <w>168</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+IteratorReports
+--
+
+-
+hasNext()
+next()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>752</x>
+      <y>336</y>
+      <w>144</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Static Class&gt;&gt;
+ReportIterator
+--
+- i : Int
+- reports : List&lt;Report&gt; 
+-
++ hasNext() : Integer
++ next() : Report</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>176</y>
+      <w>24</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1096</x>
+      <y>304</y>
+      <w>168</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Static Class&gt;&gt;
+Report List
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>152</y>
+      <w>352</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;420.0;10.0</additional_attributes>
+  </element>
+</diagram>
