@@ -5,11 +5,11 @@
     <id>UMLFrame</id>
     <coordinates>
       <x>48</x>
-      <y>184</y>
+      <y>176</y>
       <w>1152</w>
       <h>520</h>
     </coordinates>
-    <panel_attributes>login
+    <panel_attributes>forgot password
 --
 </panel_attributes>
     <additional_attributes/>
@@ -18,7 +18,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>632</x>
-      <y>120</y>
+      <y>112</y>
       <w>160</w>
       <h>24</h>
     </coordinates>
@@ -29,7 +29,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>888</x>
-      <y>120</y>
+      <y>112</y>
       <w>152</w>
       <h>24</h>
     </coordinates>
@@ -40,7 +40,7 @@
     <id>UMLActor</id>
     <coordinates>
       <x>208</x>
-      <y>88</y>
+      <y>80</y>
       <w>48</w>
       <h>88</h>
     </coordinates>
@@ -51,7 +51,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>424</x>
-      <y>120</y>
+      <y>112</y>
       <w>96</w>
       <h>24</h>
     </coordinates>
@@ -62,7 +62,7 @@
     <id>Relation</id>
     <coordinates>
       <x>232</x>
-      <y>264</y>
+      <y>256</y>
       <w>248</w>
       <h>32</h>
     </coordinates>
@@ -74,43 +74,43 @@ account information entered</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>232</x>
-      <y>200</y>
+      <y>192</y>
       <w>248</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-login selected</panel_attributes>
+edit calorie goal selected</panel_attributes>
     <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>232</x>
-      <y>232</y>
+      <y>224</y>
       <w>248</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-prompted to enter login form details </panel_attributes>
+prompted to enter calorie goal</panel_attributes>
     <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>472</x>
-      <y>288</y>
+      <y>280</y>
       <w>240</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-getUserByEmail(loginRequest)</panel_attributes>
+getUserByEmail(forgotPassword)</panel_attributes>
     <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>704</x>
-      <y>344</y>
+      <y>328</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
@@ -119,12 +119,123 @@ return success</panel_attributes>
     <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
   </element>
   <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>464</x>
+      <y>192</y>
+      <w>16</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>664</y>
+      <w>24</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>128</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>696</x>
+      <y>192</y>
+      <w>16</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>664</y>
+      <w>24</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>128</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>952</x>
+      <y>192</y>
+      <w>16</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>952</x>
+      <y>128</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>952</x>
+      <y>664</y>
+      <w>24</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>704</x>
+      <y>296</y>
+      <w>264</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+userProfileRepository.findById(id)</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>64</x>
-      <y>336</y>
-      <w>1120</w>
-      <h>312</h>
+      <x>112</x>
+      <y>320</y>
+      <w>880</w>
+      <h>256</h>
     </coordinates>
     <panel_attributes>alt
 --
@@ -136,111 +247,82 @@ halign=left
 
 
 
-
-
-
-
-
-
 -
 [user account does not exist]</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
+    <id>UMLGeneric</id>
     <coordinates>
-      <x>472</x>
-      <y>360</y>
-      <w>240</w>
-      <h>32</h>
+      <x>496</x>
+      <y>320</y>
+      <w>96</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.
-return success</panel_attributes>
-    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+    <panel_attributes>:emailClient</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
+      <x>536</x>
+      <y>336</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>536</x>
       <y>376</y>
-      <w>248</w>
+      <w>16</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>416</y>
+      <w>24</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>536</x>
+      <y>424</y>
+      <w>16</w>
+      <h>16</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>544</x>
+      <y>376</y>
+      <w>168</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-redirect user to homepage</panel_attributes>
-    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>464</x>
-      <y>200</y>
-      <w>16</w>
-      <h>480</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>464</x>
-      <y>672</y>
-      <w>24</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>464</x>
-      <y>136</y>
-      <w>24</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>696</x>
-      <y>200</y>
-      <w>16</w>
-      <h>480</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>696</x>
-      <y>672</y>
-      <w>24</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>696</x>
-      <y>136</y>
-      <w>24</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+sendEmail(userProfile)</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>704</x>
-      <y>536</y>
+      <y>448</y>
       <w>264</w>
       <h>32</h>
     </coordinates>
@@ -252,7 +334,7 @@ return error message</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>472</x>
-      <y>560</y>
+      <y>480</y>
       <w>240</w>
       <h>32</h>
     </coordinates>
@@ -264,64 +346,54 @@ return error message</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>232</x>
-      <y>584</y>
+      <y>504</y>
       <w>248</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-return error message</panel_attributes>
+return confirmation notification</panel_attributes>
     <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>952</x>
-      <y>200</y>
-      <w>16</w>
-      <h>480</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>952</x>
-      <y>136</y>
-      <w>24</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>952</x>
-      <y>672</y>
-      <w>24</w>
-      <h>48</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>704</x>
-      <y>304</y>
-      <w>264</w>
+      <x>232</x>
+      <y>368</y>
+      <w>248</w>
       <h>32</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-userProfileRepository.findById(id)</panel_attributes>
-    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+return confirmation notification</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>344</y>
+      <w>240</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+return success</panel_attributes>
+    <additional_attributes>10.0;20.0;280.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>400</y>
+      <w>24</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>224</x>
-      <y>192</y>
+      <y>184</y>
       <w>16</w>
       <h>488</h>
     </coordinates>
@@ -332,7 +404,7 @@ userProfileRepository.findById(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>672</y>
+      <y>664</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
@@ -343,7 +415,7 @@ userProfileRepository.findById(id)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>160</y>
+      <y>152</y>
       <w>24</w>
       <h>48</h>
     </coordinates>
